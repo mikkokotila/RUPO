@@ -27,9 +27,11 @@ FOR MAC-USERS:
 
 	./RUPO.py
 
-That's it, you should be now using 
+FOR WINDOWS-USERS: 
 
-### for programmers > getting started 
+Here is the instructions for Windows: https://docs.python.org/2/faq/windows.html
+
+### for programmers (and linux users) > getting started 
 
 Note that at this stage, the code is left intentionally close to maximum verboseness. This is to help non-programmer domain experts validate the results against the logic of the code excecution. 
 
