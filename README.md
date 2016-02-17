@@ -1,7 +1,42 @@
-# RUPO
+# RUPO | agricultural simulation for small and micro size farmes in India
+
 #### Simulator for evaluation of rural investment and development scenarios for small and micro size farmers. The underlying models and data are based on rural India.
 
-At this stage, the code is left intentionally close to maximum verboseness. To run, the program needs to declare the following variables: 
+To run the code, you need to have Python 2.7 installed on your machine (NOTE: not Python 3). 
+
+### for non-programmers > getting started 
+
+You can get Python from here: https://www.python.org/downloads/
+
+Once you have python installed, follow these instructions (assumes zero previous experience):
+
+1) copy-paste RUPO.py code on your desktop to a file called RUPO.py
+
+FOR MAC-USERS: 
+
+2) open terminal by typing 'terminal' in spotlight 
+3) type in the following command: 
+
+	cd desktop 
+	
+4) change the rights of the file to excecute with command: 
+
+	chmod +x RUPO.py
+
+5) start the program with one more command: 
+
+	./RUPO.py
+
+That's it, you should be now using 
+
+### for programmers > getting started 
+
+Note that at this stage, the code is left intentionally close to maximum verboseness. This is to help non-programmer domain experts validate the results against the logic of the code excecution. 
+
+### program variables
+
+To run, the program needs to declare the following variables. The variables are currently set as they are presented below. You can change any of the values to your liking easily from the program code.  
+
 
 		# input cost
 		
