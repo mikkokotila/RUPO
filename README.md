@@ -31,15 +31,15 @@ FOR MAC-USERS:
 
 FOR WINDOWS-USERS: 
 
-Download the 2.7.x version: https://www.python.org/downloads/windows/
+1) Find python.exe and add it to Windows PATH: http://showmedo.com/videotutorials/video?name=960000&fromSeriesID=96
 
-Find python.exe and add it to Windows PATH: http://showmedo.com/videotutorials/video?name=960000&fromSeriesID=96
+2) Copy the files: https://github.com/mikkokotila/RUPO.py
 
-Copy the files: https://github.com/mikkokotila/coder
+3) Open windows shell by searching "cmd"
 
-Open windows shell by searching "cmd"
-
-Change directory in shell to where you saved the files, using "cd C:\xxxx\yyy"
+4) Change directory in shell to where you saved the files, using:
+	
+	cd C:\xxxx\yyy
 
 NOTE: if you did not succeed with #2 above, then just copy the raw files to python directory and run #4 there
 
