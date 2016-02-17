@@ -12,6 +12,7 @@ Once you have python installed, follow these instructions (assumes zero previous
 
 1) copy-paste RUPO.py code on your desktop to a file called RUPO.py
 
+
 FOR MAC-USERS: 
 
 2) open terminal by typing 'terminal' in spotlight 
@@ -26,6 +27,7 @@ FOR MAC-USERS:
 5) start the program with one more command: 
 
 	./RUPO.py
+
 
 FOR WINDOWS-USERS: 
 
