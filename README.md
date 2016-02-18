@@ -41,6 +41,9 @@ FOR WINDOWS-USERS:
 	
 	cd C:\xxxx\yyy
 
+5) Run "python coder.py" in shell
+
+
 NOTE: if you did not succeed with #2 above, then just copy the raw files to python directory and run #4 there
 
 ### for programmers (and linux users) > getting started 
