@@ -13,7 +13,7 @@ Once you have python installed, follow these instructions (assumes zero previous
 1) copy-paste RUPO.py code on your desktop to a file called RUPO.py
 
 
-FOR MAC-USERS: 
+###### FOR MAC-USERS: 
 
 2) open terminal by typing 'terminal' in spotlight 
 3) type in the following command: 
@@ -29,7 +29,7 @@ FOR MAC-USERS:
 	./RUPO.py
 
 
-FOR WINDOWS-USERS: 
+###### FOR WINDOWS-USERS: 
 
 1) Find python.exe and add it to Windows PATH: http://showmedo.com/videotutorials/video?name=960000&fromSeriesID=96
 
