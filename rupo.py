@@ -2,6 +2,8 @@
 from __future__ import print_function
 import random
 import locale
+import colorama
+from colorama import Fore, Back, Style
 
 
 # set locale and format for int
@@ -211,14 +213,16 @@ turn_returnrate = turn_investment / turn_revenue * 100
 
 # outputs 
 
+colorama.init()
+
 print("\n")
-print(locale.format("%d", turn_assets, grouping=True), end='')
-print("\t A S S E T S")
+print(Fore.WHITE + Back.BLACK + locale.format("%d", turn_assets, grouping=True), end='')
+print("\t A S S E T S"  + Style.RESET_ALL)
 print("\n")
 
-print(locale.format("%d", turn_costs, grouping=True), end='')
-print("\t C O S T S")
-print(locale.format("%d", turn_inputs, grouping=True), end='')
+print(Fore.WHITE + Back.RED + locale.format("%d", turn_costs, grouping=True), end='')
+print("\t C O S T S"  + Style.RESET_ALL)
+print(Fore.RED + locale.format("%d", turn_inputs, grouping=True), end='')
 print("\t > Inputs")
 print(locale.format("%d", turn_labour, grouping=True), end='')
 print("\t > Labour")
@@ -229,12 +233,12 @@ print("\t  >> waged share")
 print(locale.format("%d", turn_risk, grouping=True), end='')
 print("\t > Risk")
 print(locale.format("%d", turn_interest, grouping=True), end='')
-print("\t > Interest")
+print("\t > Interest"  + Style.RESET_ALL)
 
 print("\n")
-print(locale.format("%d", turn_revenue, grouping=True), end='')
-print("\t R E V E N U E")
-print(locale.format("%d", turn_farm, grouping=True), end='')
+print(Fore.WHITE + Back.GREEN + locale.format("%d", turn_revenue, grouping=True), end='')
+print("\t R E V E N U E"  + Style.RESET_ALL)
+print(Fore.GREEN + locale.format("%d", turn_farm, grouping=True), end='')
 print("\t > Farm based")
 print(locale.format("%d", turn_animal, grouping=True), end='')
 print("\t > Animal based")
@@ -242,12 +246,10 @@ print(locale.format("%d", turn_other, grouping=True), end='')
 print("\t > Other")
 
 print("\n")
-print(locale.format("%d", turn_net, grouping=True), end='')
-print("\t N E T")
-print(locale.format("%d", turn_interestfree, grouping=True), end='')
+print(Fore.WHITE + Back.BLACK + locale.format("%d", turn_net, grouping=True), end='')
+print("\t N E T"  + Style.RESET_ALL)
+print(Fore.BLACK + locale.format("%d", turn_interestfree, grouping=True), end='')
 print("\t > Before interest payments")
 print(locale.format("%d", turn_returnrate, grouping=True), end='')
-print("\t > Return on capital invested (%)")
+print("\t > Return on capital invested (%)" + Style.RESET_ALL)
 print("\n")
-
-
