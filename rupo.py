@@ -216,10 +216,15 @@ turn_returnrate = turn_investment / turn_revenue * 100
 colorama.init()
 
 print("\n")
-print(Fore.WHITE + Back.BLACK + locale.format("%d", turn_assets, grouping=True), end='')
-print("\t A S S E T S"  + Style.RESET_ALL)
+print(Fore.WHITE + Back.BLACK + "r u r a l  d e s i g n  l a b" + Style.RESET_ALL) 
 print("\n")
-
+print(Fore.WHITE + Back.BLACK + locale.format("%d", turn_assets, grouping=True), end='') 
+print("\t A S S E T S"  + Style.RESET_ALL)
+print(Fore.BLACK + locale.format("%d", land_value * land, grouping=True), end='')
+print("\t > Land value")
+print(Fore.BLACK + locale.format("%d", (cow_value * cow) + (goat_value * goat), grouping=True), end='')
+print("\t > Animal value")
+print("\n")
 print(Fore.WHITE + Back.RED + locale.format("%d", turn_costs, grouping=True), end='')
 print("\t C O S T S"  + Style.RESET_ALL)
 print(Fore.RED + locale.format("%d", turn_inputs, grouping=True), end='')
